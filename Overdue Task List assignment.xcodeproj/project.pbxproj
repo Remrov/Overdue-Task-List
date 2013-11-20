@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F08466E1833DE2F005A3D56 /* HVTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F08466D1833DE2F005A3D56 /* HVTaskModel.m */; };
 		4F1F11051833B38F0085F111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1F11041833B38F0085F111 /* Foundation.framework */; };
 		4F1F11071833B38F0085F111 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1F11061833B38F0085F111 /* CoreGraphics.framework */; };
 		4F1F11091833B38F0085F111 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1F11081833B38F0085F111 /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		4F1F11261833B38F0085F111 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1F11081833B38F0085F111 /* UIKit.framework */; };
 		4F1F112E1833B38F0085F111 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F1F112C1833B38F0085F111 /* InfoPlist.strings */; };
 		4F1F11301833B38F0085F111 /* Overdue_Task_List_assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F112F1833B38F0085F111 /* Overdue_Task_List_assignmentTests.m */; };
+		4F1F113B1833B7060085F111 /* HVAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F113A1833B7060085F111 /* HVAddTaskViewController.m */; };
+		4F1F113E1833B7230085F111 /* HVTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F113D1833B7230085F111 /* HVTaskDetailViewController.m */; };
+		4F1F11411833B7390085F111 /* HVEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F11401833B7390085F111 /* HVEditTaskViewController.m */; };
+		4F5F2AB6183BAA3600150776 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5F2AB5183BAA3600150776 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F08466C1833DE2F005A3D56 /* HVTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVTaskModel.h; sourceTree = "<group>"; };
+		4F08466D1833DE2F005A3D56 /* HVTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVTaskModel.m; sourceTree = "<group>"; };
 		4F1F11011833B38F0085F111 /* Overdue Task List assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overdue Task List assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1F11041833B38F0085F111 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F1F11061833B38F0085F111 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,13 @@
 		4F1F112B1833B38F0085F111 /* Overdue Task List assignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task List assignmentTests-Info.plist"; sourceTree = "<group>"; };
 		4F1F112D1833B38F0085F111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F1F112F1833B38F0085F111 /* Overdue_Task_List_assignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overdue_Task_List_assignmentTests.m; sourceTree = "<group>"; };
+		4F1F11391833B7060085F111 /* HVAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVAddTaskViewController.h; sourceTree = "<group>"; };
+		4F1F113A1833B7060085F111 /* HVAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVAddTaskViewController.m; sourceTree = "<group>"; };
+		4F1F113C1833B7230085F111 /* HVTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVTaskDetailViewController.h; sourceTree = "<group>"; };
+		4F1F113D1833B7230085F111 /* HVTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVTaskDetailViewController.m; sourceTree = "<group>"; };
+		4F1F113F1833B7390085F111 /* HVEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVEditTaskViewController.h; sourceTree = "<group>"; };
+		4F1F11401833B7390085F111 /* HVEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVEditTaskViewController.m; sourceTree = "<group>"; };
+		4F5F2AB5183BAA3600150776 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,14 @@
 				4F1F11161833B38F0085F111 /* Main.storyboard */,
 				4F1F11191833B38F0085F111 /* HVViewController.h */,
 				4F1F111A1833B38F0085F111 /* HVViewController.m */,
+				4F1F11391833B7060085F111 /* HVAddTaskViewController.h */,
+				4F1F113A1833B7060085F111 /* HVAddTaskViewController.m */,
+				4F1F113C1833B7230085F111 /* HVTaskDetailViewController.h */,
+				4F1F113D1833B7230085F111 /* HVTaskDetailViewController.m */,
+				4F1F113F1833B7390085F111 /* HVEditTaskViewController.h */,
+				4F1F11401833B7390085F111 /* HVEditTaskViewController.m */,
+				4F08466C1833DE2F005A3D56 /* HVTaskModel.h */,
+				4F08466D1833DE2F005A3D56 /* HVTaskModel.m */,
 				4F1F111C1833B38F0085F111 /* Images.xcassets */,
 				4F1F110B1833B38F0085F111 /* Supporting Files */,
 			);
@@ -130,6 +152,7 @@
 				4F1F110D1833B38F0085F111 /* InfoPlist.strings */,
 				4F1F11101833B38F0085F111 /* main.m */,
 				4F1F11121833B38F0085F111 /* Overdue Task List assignment-Prefix.pch */,
+				4F5F2AB5183BAA3600150776 /* images.jpeg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1F111D1833B38F0085F111 /* Images.xcassets in Resources */,
+				4F5F2AB6183BAA3600150776 /* images.jpeg in Resources */,
 				4F1F110F1833B38F0085F111 /* InfoPlist.strings in Resources */,
 				4F1F11181833B38F0085F111 /* Main.storyboard in Resources */,
 			);
@@ -251,8 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1F111B1833B38F0085F111 /* HVViewController.m in Sources */,
+				4F1F113B1833B7060085F111 /* HVAddTaskViewController.m in Sources */,
+				4F1F113E1833B7230085F111 /* HVTaskDetailViewController.m in Sources */,
 				4F1F11151833B38F0085F111 /* HVAppDelegate.m in Sources */,
 				4F1F11111833B38F0085F111 /* main.m in Sources */,
+				4F08466E1833DE2F005A3D56 /* HVTaskModel.m in Sources */,
+				4F1F11411833B7390085F111 /* HVEditTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +489,7 @@
 				4F1F11351833B38F0085F111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1F11361833B38F0085F111 /* Build configuration list for PBXNativeTarget "Overdue Task List assignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +498,7 @@
 				4F1F11381833B38F0085F111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
